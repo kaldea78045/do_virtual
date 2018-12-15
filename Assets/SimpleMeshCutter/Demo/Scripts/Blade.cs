@@ -230,7 +230,7 @@ namespace MeshCutter.Demo
             {
                 SlicerCutSequenceArgs args = new SlicerCutSequenceArgs
                 {
-                    LifeTime = 1.58f,
+                    LifeTime = 3f,
                     Speed = 0.1f,
                     OverrideMaterial = _overrideMaterial,
                     EffectPrefab = _effectPrefab,

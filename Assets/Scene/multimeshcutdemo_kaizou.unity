@@ -3647,6 +3647,18 @@ Prefab:
         type: 2}
       propertyPath: _overrideMaterial
       value: 
+      objectReference: {fileID: 2100000, guid: 988cda746041c9040838cca7fb5e1288, type: 2}
+    - target: {fileID: 4683141310860906, guid: a548e7050ba11d44d9a5db9c5326340e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4683141310860906, guid: a548e7050ba11d44d9a5db9c5326340e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 4683141310860906, guid: a548e7050ba11d44d9a5db9c5326340e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 2.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a548e7050ba11d44d9a5db9c5326340e, type: 2}
