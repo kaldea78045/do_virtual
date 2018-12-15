@@ -130,7 +130,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4337553960346844, guid: a548e7050ba11d44d9a5db9c5326340e, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.507
+      value: -0.03
       objectReference: {fileID: 0}
     - target: {fileID: 4337553960346844, guid: a548e7050ba11d44d9a5db9c5326340e, type: 2}
       propertyPath: m_LocalRotation.x
@@ -173,7 +173,7 @@ Prefab:
     - target: {fileID: 114100843446635884, guid: a548e7050ba11d44d9a5db9c5326340e,
         type: 2}
       propertyPath: _delay
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4337553960346844, guid: a548e7050ba11d44d9a5db9c5326340e, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y

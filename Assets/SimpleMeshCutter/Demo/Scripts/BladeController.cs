@@ -44,8 +44,8 @@ namespace MeshCutter.Demo
 
             _time += Time.deltaTime;
 
-            Vector3 rot = _initRot + (_rotation * (_time / _duration));
-            transform.rotation = Quaternion.Euler(rot);
+           // Vector3 rot = _initRot + (_rotation * (_time / _duration));
+          //  transform.rotation = Quaternion.Euler(rot);
         }
     }
 }
