@@ -160,7 +160,7 @@ namespace MeshCutter.Demo
             // 時間経過したらオブジェクトを破棄する
             for (int i = 0; i < _slicerList.Count; i++)
             {
-                GameObject.Destroy(_slicerList[i].transform.parent.gameObject);
+               // GameObject.Destroy(_slicerList[i].transform.parent.gameObject);
             }
 
             Dispose();

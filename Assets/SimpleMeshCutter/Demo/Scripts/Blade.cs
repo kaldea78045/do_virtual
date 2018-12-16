@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace MeshCutter.Demo
@@ -230,7 +229,7 @@ namespace MeshCutter.Demo
             {
                 SlicerCutSequenceArgs args = new SlicerCutSequenceArgs
                 {
-                    LifeTime = 3f,
+                    LifeTime = 10f,
                     Speed = 0.1f,
                     OverrideMaterial = _overrideMaterial,
                     EffectPrefab = _effectPrefab,
@@ -248,7 +247,7 @@ namespace MeshCutter.Demo
                 sequencer.Remove(slicer);
             }
 
-            Destroy(slicer.Root.gameObject);
+            Destroy(slicer.Root.gameObject);//カットされたオブジェクトの削除
         }
 
         private void OnEndedHandler(SlicerCutSequencer sequencer)
